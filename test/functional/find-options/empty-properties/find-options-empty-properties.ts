@@ -89,9 +89,7 @@ describe("find options > where", () => {
                     })
                     .getMany()
 
-                posts2.should.be.eql([
-                    { id: 3, title: "Post #3", text: null },
-                ])
+                posts2.should.be.eql([{ id: 3, title: "Post #3", text: null }])
             }),
         ))
 })
